@@ -1,4 +1,4 @@
-Select first_name as worker_name from worker;
+Select first_name as 'WORKER_NAME' from worker;
 Select distinct department from worker;
 Select * from worker Order by id desc limit 5;
 
